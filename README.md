@@ -1,8 +1,7 @@
 ## 介绍
 
 **python_run** 插件基于`vim8.0`，并且支持`+terminal`特性的`vim`版本。通过映射快
-捷键直接运行当前`python`脚本。关于`terminal`的一些相关特性，可以查看`terminal`
-的相关文档：
+捷键直接运行当前`python`脚本。关于`terminal`的特性，可以查看`terminal`的相关文档：
 ``` vim
 :h terminal
 ```
