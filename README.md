@@ -2,7 +2,7 @@
 
 **python_run** 插件依赖
 
-* `vim8.0`
+* `vim8.0`或更新
 * `+terminal`
 
 通过映射快捷键直接运行当前`python`脚本。关于`terminal`的特性，可以查看`terminal`的相关文档：
@@ -18,7 +18,7 @@ g:python_run_python_version = 3
 ``` vim
 g:python_run_python_version = 2
 ```
-默认情况下`g:python_run_python_version`的配置为**3**。
+默认情况下`g:python_run_python_version = 3`。
 
 ## 映射
 
