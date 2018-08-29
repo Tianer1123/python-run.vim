@@ -1,0 +1,33 @@
+*python_run.txt* python脚本Vim内部运行插件
+
+====================================================================
+用法                                              *python_run* 用法
+
+    1. 介绍 ................ |python_run-Uesage|
+    2. 映射 ................ |python_run-Mappings|
+
+====================================================================
+第一节: 介绍                                      *python_run-Uesage*
+
+*python_run* 插件基于vim8.0，并且支持+terminal特性的vim版本。通过映射快捷键直接
+运行当前python脚本。关于 *terminal* 的一些相关特性，可以查看 *terminal* 的相关
+文档： >
+            :h terminal
+
+*python_run* 需要在配置文件*vimrc*中配置python版本（python2或python3）： >
+            g:python_run_python_version = 3
+或： >
+            g:python_run_python_version = 2
+默认情况下*g:python_run_python_version*的配置为3。
+
+====================================================================
+第二节: 映射                                      *python_run-Mappings*
+
+*python_run* 中设置的<localleader>为'_'。 >
+            set maplocalleader='_'
+
+运行python脚本命令： >
+            <localleader>r
+
+跳回terminal窗口命令: >
+            <localleader>b
