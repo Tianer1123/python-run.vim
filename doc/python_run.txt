@@ -9,7 +9,7 @@
 ====================================================================
 第一节: 介绍                                      *python_run-Uesage*
 
-*python_run* 插件基于vim8.0，并且支持+terminal特性的vim版本。通过映射快捷键直接
+*python_run* 插件基于vim8.0或更新，并且支持+terminal特性的vim版本。通过映射快捷键直接
 运行当前python脚本。关于 *terminal* 的一些相关特性，可以查看 *terminal* 的相关
 文档： >
             :h terminal
