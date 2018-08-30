@@ -8,6 +8,34 @@
 * `vim8.0`或更新
 * `+terminal`
 
+### 安装
+
+#### [Vundle](https://github.com/VundleVim/Vundle.vim) ( **建议** )
+
+把下面内容放到你的`vimrc`中
+``` vim
+Plugin 'Tianer1123/python-run.vim'
+```
+打开`vim`执行
+``` vim
+:source %
+:PluginInstall
+```
+
+#### Pathogen
+``` vim
+cd ~/.vim/bundle
+git clone https://github.com/Tianer1123/python-run.vim.git
+```
+
+#### 无插件管理器
+将插件下载下来拷贝到你的`vim`配置文件夹中
+``` bash
+cd /tmp && git clone https://github.com/Tianer1123/python-run.vim.git
+cp -r python-run.vim/* ~/.vim/
+```
+
+查看`vim`帮助`:help add-global-plugin`.
 
 ### python_run 配置
 `python_run` 需要在配置文件`vimrc`中配置`python`版本（`python2`或`python3`）：
