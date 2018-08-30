@@ -67,8 +67,8 @@ set maplocalleader='_'
 
 快捷键 | 功能
 ---- | ---
-\<localleader\>r | 运行python脚本
-\<localleader\>b | 跳回terminal窗口
+_r | 运行python脚本
+_b | 跳回terminal窗口
 
 ## 命令
 
