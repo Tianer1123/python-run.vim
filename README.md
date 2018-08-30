@@ -12,11 +12,11 @@
 ### python_run 配置
 `python_run` 需要在配置文件`vimrc`中配置`python`版本（`python2`或`python3`）：
 ``` vim
-g:python_run_python_version = 3
+let g:python_run_python_version = 3
 ```
 或：
 ``` vim
-g:python_run_python_version = 2
+let g:python_run_python_version = 2
 ```
 默认情况下`g:python_run_python_version = 3`。
 
