@@ -3,6 +3,9 @@
 
 通过快捷键或命令直接运行当前`python`脚本。
 
+### 截图
+![RunPython](https://github.com/Tianer1123/python-run.vim/blob/master/RunPython.gif)
+
 ### python_run 插件依赖
 
 * `vim8.0`或更新
