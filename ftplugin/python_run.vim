@@ -39,5 +39,9 @@ function! s:Python_run_fun()
   endif
 endfunction
 
+if !exists("RunPython")
+  command -nargs=0    RunPython :call s:Python_run_fun()
+endif
+
 let &cpo = s:save_cpo
 unlet s:save_cpo
