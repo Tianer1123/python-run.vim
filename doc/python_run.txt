@@ -16,9 +16,9 @@
             :h terminal
 
 |python_run| 需要在配置文件|vimrc|中配置python版本（python2或python3）： >
-            g:python_run_python_version = 3
+            let g:python_run_python_version = 3
 或： >
-            g:python_run_python_version = 2
+            let g:python_run_python_version = 2
 默认情况下`let g:python_run_python_version = 3`。
 
 ====================================================================
@@ -28,10 +28,10 @@
             set maplocalleader='_'
 
 运行python脚本命令： >
-            <localleader>r
+            _r
 
 跳回|terminal|窗口命令: >
-            <localleader>b
+            _b
 
 ====================================================================
 第三节: 命令                                      *python_run-Commands*
