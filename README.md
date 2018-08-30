@@ -23,8 +23,9 @@ g:python_run_python_version = 2
 默认情况下`g:python_run_python_version = 3`。
 
 ### terminal的一些简单介绍
-1. 如果`terminal`处于运行状态，可以使用`<c-w> <c-c>`来终止`terminal job`，突出`REPL`并进入`normal`模式。
-2. 如果要退出`terminal`窗口，在进入`normal`模式后执行`:q!`或者`:close!`等。
+1. 如果`terminal`处于运行状态，可以使用`<c-w> <c-w>`或者`<c-w>` + `h,j,k,l`来切换window。
+2. 如果`terminal`处于运行状态，可以使用`<c-w> <c-c>`来终止`terminal job`，退出`REPL`并进入`normal`模式。
+3. 如果要**退出**`terminal`窗口，在进入`normal`模式后执行`:q!`或者`:close!`等。
 
 
 ## 映射
