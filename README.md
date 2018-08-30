@@ -11,6 +11,32 @@
 * `vim8.0`或更新
 * `+terminal`
 
+#### 查看版本
+终端查看vim版本:
+``` bash
+vim --version
+```
+vim内查看vim版本:
+``` vim
+:version
+```
+
+#### 查看是否支持terminal
+终端查看:
+``` bash
+vim --version | grep terminal
+```
+
+* `+terminal` : 支持
+* `-terminal` : 不支持
+
+vim内查看:
+``` vim
+:echo has("terminal")
+```
+* 1 : 支持
+* 0 : 不支持
+
 ### 安装
 
 #### [Vundle](https://github.com/VundleVim/Vundle.vim) ( **建议** )
