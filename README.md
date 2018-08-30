@@ -20,6 +20,11 @@ g:python_run_python_version = 2
 ```
 默认情况下`g:python_run_python_version = 3`。
 
+**terminal的一些简单介绍**
+1. 如果`terminal`处于运行状态，可以使用`<c-w> <c-c>`来终止`terminal job`，突出`REPL`并进入`normal`模式。
+2. 如果要退出`terminal`窗口，在进入`normal`模式后执行`:q!`或者`:close!`等。
+
+
 ## 映射
 
 **python_run** 中设置的`<localleader>`为`_`。
