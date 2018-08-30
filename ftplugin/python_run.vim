@@ -32,10 +32,14 @@ nnoremap <unique> <buffer> <localleader>r :call <SID>Python_run_fun()<CR>
 
 function! s:Python_run_fun()
   let b:current_python_file = expand("%:p")
-  if g:python_run_python_version == 2
+  if has("win32")
     execute "normal! :terminal python " . b:current_python_file . " \<cr>"
-  elseif g:python_run_python_version == 3
-    execute "normal! :terminal python3 " . b:current_python_file . " \<cr>"
+  else
+    if g:python_run_python_version == 2
+      execute "normal! :terminal python " . b:current_python_file . " \<cr>"
+    elseif g:python_run_python_version == 3
+      execute "normal! :terminal python3 " . b:current_python_file . " \<cr>"
+    endif
   endif
 endfunction
 
