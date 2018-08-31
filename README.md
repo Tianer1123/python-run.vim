@@ -94,10 +94,14 @@ let g:python_run_python_version = 2
 set maplocalleader='_'
 ```
 
-快捷键 | 功能
----- | ---
-_r | 运行python脚本
-_b | 跳回terminal窗口
+**自定义maplocalleader**
+``` vim
+let g:python_run_python_localleader = '_'
+```
+
+快捷键 | 说明| 功能
+---- | --- | ---
+_r | \<localleader\>r| 运行python脚本
 
 ## 命令
 

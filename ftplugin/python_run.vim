@@ -27,7 +27,12 @@ if !exists("g:python_run_python_version")
   let g:python_run_python_version = 3
 endif
 
-let maplocalleader = '_'
+if !exists("g:python_run_python_localleader")
+  let maplocalleader = '_'
+else
+  let maplocalleader = g:python_run_python_localleader
+endif
+
 nnoremap <unique> <buffer> <localleader>r :call <SID>Python_run_fun()<CR>
 
 function! s:Python_run_fun()

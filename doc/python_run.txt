@@ -27,11 +27,12 @@
 |python_run| 中设置的<localleader>为'_'。 >
             set maplocalleader='_'
 
-运行python脚本命令： >
-            _r
+用户自定义`<localleader>`: >
+            let g:python_run_python_localleader = '_'
 
-跳回|terminal|窗口命令: >
-            _b
+
+运行python脚本命令： >
+            _r  (<localleader>r)
 
 ====================================================================
 第三节: 命令                                      *python_run-Commands*
