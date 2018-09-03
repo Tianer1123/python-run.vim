@@ -110,7 +110,7 @@ let g:python_run_python_localleader = '_'
 
 快捷键 | 说明| 功能
 ---- | --- | ---
-_r | \<localleader\>r| 运行python脚本
+<hkb>_</hkb><hkb>r</hkb> | \<localleader\>r| 运行python脚本
 
 ## 命令
 
