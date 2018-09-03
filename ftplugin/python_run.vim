@@ -48,9 +48,13 @@ function! s:Python_run_fun()
   endif
 endfunction
 
-if !exists("RunPython")
-  command -nargs=0    RunPython :call s:Python_run_fun()
-endif
+function! s:Python_run_ipython()
+  execute "normal! :terminal ipython\<cr>"
+endfunction
+
+command -nargs=0    RunPython :call s:Python_run_fun()
+command -nargs=0    RunIpython :call s:Python_run_ipython()
+
 
 let &cpo = s:save_cpo
 unlet s:save_cpo

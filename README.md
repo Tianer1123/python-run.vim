@@ -120,6 +120,11 @@ _r | \<localleader\>r| 运行python脚本
 ```
 运行`python`脚本。
 
+如果安装了`ipython`，用如下命令打开：
+``` vim
+:RunIpython
+```
+
 ## 许可证
 **MIT许可证(MIT)**
 

@@ -42,4 +42,9 @@
 在普通模式下执行: >
             :RunPython
            
+
+*RunIpython*
+
+如果安装了`ipython`: >
+            :RunIpython
 vim:tw=80:ts=2:ft=help:norl:
