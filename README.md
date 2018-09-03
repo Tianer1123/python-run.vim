@@ -69,9 +69,11 @@ cp -r python-run.vim/* ~/.vim/
 ### python_run 配置
 
 **win32:**
+
 win32下默认使用`python`命令，请设置好环境变量。
 
 **linux,MACOS:**
+
 `python_run` 需要在配置文件`vimrc`中配置`python`版本（`python2`或`python3`）：
 ``` vim
 let g:python_run_python_version = 3
