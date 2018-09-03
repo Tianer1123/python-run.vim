@@ -6,7 +6,7 @@
 ### 截图
 ![RunPython](https://github.com/Tianer1123/python-run.vim/blob/master/RunPython.gif)
 
-在`ex`命令下输入: `:python_run`或者按<kbd>_</kbd>+<kbd>r</kbd>运行`python`脚本。
+在`ex`命令下输入: `:python_run`或者按<kbd>_ + r</kbd>运行`python`脚本。
 
 ### python_run 插件依赖
 
