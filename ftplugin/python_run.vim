@@ -9,7 +9,7 @@ if exists("b:did_python_run_plugin")
 endif
 let b:did_python_run_plugin = 1
 
-if v:version <= 800
+if v:version < 800
   echo "You need vim version 8.0 or later."
   finish
 endif
